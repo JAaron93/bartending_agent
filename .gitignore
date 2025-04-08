@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Godot/GDScript
+.import/
+export.cfg
+export_presets.cfg
+.godot/
+*.translation
+.mono/
+data_*/
+*.import
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# LangGraph and LLM specific
+.langgraph_cache/
+.langchain.cache/
+.langchain/
+*_cache/
+*.cache
+generated_responses/
+model_outputs/
+.gemini_cache/
+vector_store/
+embeddings/
+.chroma/
+*.pkl
+*.bin
+
+# Temporary files that might be created during LLM operations
+temp_outputs/
+conversation_history/
+chat_logs/
